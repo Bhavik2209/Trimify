@@ -7,9 +7,21 @@ async function handleSignUp(req,res){
         email,
         password
     });
-    return res.render("home");
+    return res.render("/");
 }
+
+async function handleLogIn(req,res){
+    const {email,password} = req.body;
+    const user = await User.findOne({email,password});
+    if(!user)
+    return res.render("login",{
+        error:"Invalid Username or Password"
+    });
+    return res.redirect("/");
+}
+
 
 module.exports = {
     handleSignUp,
+    handleLogIn
 }
