@@ -26,7 +26,7 @@ body{
 }
 label{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-	color: #344cc2;
+	color: #d02c31;
 	font-size: 2.6em;
 	justify-content: center;
 	display: flex;
@@ -54,7 +54,7 @@ button{
 	justify-content: center;
 	display: block;
 	color: #fff;
-	background: #344cc2;
+	background: #d02c31;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -65,7 +65,7 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #273ba3;
+	background: #d02c31;
 }
 
 #chk:checked ~ .signup label{
