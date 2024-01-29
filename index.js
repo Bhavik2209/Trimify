@@ -15,6 +15,7 @@ const port =3000;
 connectToMongoDB("mongodb://localhost:27017/short-url-db")
 .then(()=>console.log("connected to MognoDB"));
 
+app.use(express.static('public'));
 app.set('view engine','ejs');
 app.set('views',path.resolve("./views"));
 

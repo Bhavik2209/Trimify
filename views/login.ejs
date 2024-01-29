@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+</html><!DOCTYPE html>
+<html>
 <head>
-    <style>
-        body{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogIn</title>
+	<title>Log in</title>
+	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Login</h1>
-    <form action="/user/login" method="post">
-         <label>Email</label>
-         <input type="email" required name="email">
-         <label>Password</label>
-         <input type="password" required name="password">
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
 
-         <button type="submit">Login</button>
-         
-    </form>
+			<div class="signup">
+				<form method="post" action="/user/login">
+					<label for="chk" aria-hidden="true">Log in</label>
+					<input type="email"  placeholder="Email" required name="email">
+					<input type="password"  placeholder="Password" required name="password">
+					<button type="submit">Log in</button>
+				</form>
+			</div>
+	</div>
 </body>
 </html>

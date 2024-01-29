@@ -7,7 +7,7 @@ async function handleSignUp(req,res){
         email,
         password
     });
-    return res.render("/");
+    return res.redirect("/");
 }
 
 async function handleLogIn(req,res){
