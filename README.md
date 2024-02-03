@@ -1,5 +1,10 @@
-# Custom URL Shortner 
-### This is a url shortner which gives the short ID for your URL and the analysis of the URLS and it's clicks with database authentication.
+# Trimify
+#### This is a url shortner which gives the short ID for your URL and the analysis of the URLS and it's clicks with database authentication.
+### website URL
+[Trimify](https://trimify.onrender.com/)
+
+### LinkedIn
+[LinkedIN](https://www.linkedin.com/posts/bhavik-rohit_hey-everyone-introducing-trimify-a-dynamic-activity-7159190142648233984-yfVz?utm_source=share&utm_medium=member_desktop)
 
 ### Sign-up page
 ![Sign-up](https://raw.github.com/Bhavik2209/trimify/main/images/img1.png)
